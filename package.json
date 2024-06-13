@@ -4,8 +4,8 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
-    "deploy": "ng build && copy .\\docs\\browser\\* .\\docs",
+    "build": "ng build --output-path docs --base-href /ng-challenge-01/",
+    "deploy": "npm run build && copy .\\docs\\browser\\* .\\docs",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
