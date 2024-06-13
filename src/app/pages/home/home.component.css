@@ -1,0 +1,20 @@
+:host {
+  padding: 20px;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  max-width: 200px;
+  padding: 20px;
+  margin: 20px;
+  border: 1px solid gray;
+}
+
+.card a {
+  font-size: large;
+  cursor: pointer;
+}
+

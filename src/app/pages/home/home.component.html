@@ -1,0 +1,11 @@
+@for (turbine of turbines$(); track $index) {
+
+<div class="card">
+  <h2>
+    {{ turbine.name }}
+  </h2>
+  <a (click)="onClickTurbineStatus(turbine)">{{
+    turbine.active ? "🆗" : "📴"
+  }}</a>
+</div>
+}
